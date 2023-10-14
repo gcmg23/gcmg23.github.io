@@ -1,0 +1,1884 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #0066cc;    
+}
+
+h4 {
+    font-size: 1.2em
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3d3d3d;
+    line-height: 1.1em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+a {
+    color: #0066cc;
+    font-weight: 600;
+    font-size: 1.0em;
+}
+
+a:visited {
+    color: #0066cc;
+}
+
+/*
+
+
+
+///////////////
+///////////////
+///   ///   ///
+///   ///   ///
+///   ///   ///
+///   ///   ///
+///   ///   ///
+
+
+
+*/
+
+
+#menu {
+    padding-top: 30px;
+    padding-left: 8vw;
+    height: 10vh;
+    width: 99vw;
+}
+
+#GCGlogo-top {
+    float: left;
+    height: 60px;
+}
+
+#menu-p {
+    font-family: 'Roboto', Arial;
+    font-size: 0.8em;
+    height: auto;
+    width: ;
+    padding-left: 80px;
+}
+
+#menu-p- {
+    font-family: 'Roboto', Arial;
+    font-size: 0.8em;
+    padding-top: 0px;
+    padding-left: 79px;
+    color: whitesmoke;
+}
+
+#menu-p-about {
+    font-family: 'Roboto', Arial;
+    font-size: 0.8em;
+    padding-top: 0px;
+    padding-left: 79px;
+    color: darkslategrey;
+    text-shadow: ;
+}
+
+
+
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: hidden;
+    opacity: 1;
+    font-size: 1.2em
+}
+
+.overlay-content {
+    position: reative;
+    top: 18;
+    width: 300px%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: ;
+    font-family: 'Roboto', Arial;
+    color: #0066cc;
+}
+
+.overlay-content a {
+    height: 20px;
+    width: 85vw;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.overlay-content:clicked {
+    text-decoration: none;
+}
+
+.overlay-content a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.overlay .closebtn {
+    margin-left: 25px;
+    font-size: 65px;
+    text-decoration: none;
+}
+
+.overlay .closebtn:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+///     ///
+///     ///
+///     ///
+///     ///
+///////////
+///////////
+///     ///
+///     ///
+///     ///
+///     ///
+///     ///
+
+
+*/
+
+#Home-container {
+    height: 120vh;
+    width: 99.9999vw;
+    background-image: url(resources/Grantham%20Childminding%20Grantham2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #Home-container {
+        height: 40vh;
+        width: 100%;
+        background-position: ;
+    }
+}
+
+.Home-Desc {
+    float: lef;
+    width: 42.9999vw;
+    margin-left: 8vw;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+    .Home-Desc {
+        width: 82vw;
+        background-color: whitesmoke;
+        margin-top: 18vh;
+        padding: 10px;
+        padding-bottom: 10px;
+        border-radius: 3px;
+    }
+}
+
+.Home-2nd {
+    width: 42.9999vw;
+    margin-left: 8vw;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    .Home-2nd {
+        width: 82vw;
+        margin-top: 40px;
+        padding: 0px;
+    }
+}
+
+.Home-h1 {
+    line-height: 1.2em;
+    font-size: 1.9em;
+}
+
+@media only screen and (max-width: 700px) {
+    .Home-h1 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 1.5em;
+    }
+}
+
+
+
+.Home-h2 { 
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.home-top-links {
+    height: auto;
+    width: 50%;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+.home-top-links:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+#Home-Pacey {
+    height: 40px;
+    width: 130px;
+
+    margin-right: ;
+    float: right;
+    background-color: ;
+    border-radius: 3px;
+    padding: 5px;
+    opacity: 0.7;
+
+}
+
+#Home-Pacey:hover {
+    opacity: 1;
+}
+
+
+
+
+#home-bot {
+    height: auto;
+    width: 100%;
+    margin-left: 8vw;
+    margin-bottom: 50px;
+    display: inline-block;
+    background-color: atiquewhite;
+}
+
+
+
+
+    
+/*
+
+///
+///
+///
+/// about
+///
+///
+///
+///
+///
+///
+/// about
+///
+///
+///
+
+*/
+
+.About-bg {
+    height: 40vh;
+    width: 99.9999vw;
+    background-image: url(resources/artpaint.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+}
+
+#about-intro {
+    height: auto;
+    width: 75vw;
+    margin-left: 10vw;
+    background-color: whitesmoke;
+    padding: 30px 20px 30px 20px;
+    margin-top: -10vh;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+@media only screen and (max-width: 700px) {
+    #about-intro {
+        width: 90%;
+        margin-left: 2vw;
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about-intro {
+        width: 88%;
+        margin-left: 2vw;
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #about-intro {
+        width: 85%;
+        margin-left: 2vw;
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+#abt-h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    #abt-h1 {
+        font-size: 1.4em;
+    }
+}
+
+
+#about-intro p {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+}
+
+.about-a {
+    height: 25px;
+    width: auto;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px 15px 0px 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.about-a:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+#about-Ofsted {
+    height: auto;
+    width: 82vw;
+    margin-left: 8vw;
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 700px) {
+    #about-Ofsted {
+        width: 94vw;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #about-Ofsted {
+        width: 92vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #about-Ofsted {
+        width: 90vw;
+        margin-left: 13px;
+    }
+}
+
+#about-Ofsted ul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3d3d3d;
+    margin-top: -10px;
+    padding-left: 20px
+}
+
+#about-Ofsted-h3 {
+    margin-bottom: -10px;
+}
+
+#Ofsted-logo {
+    height: auto;
+    width: 150px;
+    margin-left: 31.5vw;
+    margin-top: 10px;
+    border-bottom: 3px solid dodgerblue;
+}
+
+.about-expect-box {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+#about-expect-h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    letter-spacing: 0.01em;
+}
+
+.about-ppp {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3d3d3d;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.15em;
+}
+
+#about-Ofsted h4 {
+    margin-bottom: 2px;
+}
+
+.about-pp {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3d3d3d;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.1em;
+}
+
+#about-img {
+    height: 600px;
+    width: 82vw;
+    margin-left: 8vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    #about-img{
+       height: 400px;
+    width: 82vw;
+    margin-left: 8vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+}
+
+#abt-img {
+    height: 600px;
+    width: 100%;
+    background-image: url(resources/FB_IMG_1503780432099.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: ;
+}
+
+@media only screen and (max-width: 500px) {
+    #abt-img{
+        height: 400px;
+        width: 100%;
+    }
+}
+
+
+#pacey-logo {
+    height: auto;
+    width: 130px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 8vw;
+    border-bottom: 3px solid dodgerblue;
+}
+
+#about-footer {
+    height: 50px;
+    width: 99.99999vw;
+    background-color: cadetblue;
+}
+
+
+
+
+/*
+
+
+///
+///
+///
+///
+///childminder template
+///
+///
+///
+///
+///
+//
+///
+///
+///
+///childminder template
+///
+///
+///
+///
+///
+//
+///
+///
+///
+///childminder template
+///
+///
+///
+///
+///
+
+*/
+
+
+#Childminder-Temp-bg {
+    height: 60vh;
+    width: 99.99999vw;
+    background-image: url(resources/gcglogo-blue-nobg.png);
+    background-position: center /* 0% 30% */;
+    background-size: cov;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+
+/* childminder pages */
+
+
+/* ----------------- */
+
+#Childminder-elise-webb {
+    height: 60vh;
+    width: 99.99999vw;
+    background-image: url(resources/Elise%20Webb%20Photo.jpg);
+    background-position: 0% 30% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+@media only screen and (max-width: 700px) {
+    #Childminder-elise-webb {
+        background-position: center;
+    }
+}
+
+#Childminder-alison-clark {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Allison%20and%20Daniel%20logo.%20large%20file%20with%20transparent%20background.%20png.png);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-carole-pearson {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-daniel-clark {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-heather-hardy {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Heather%20Hardy%20photo.jpg);
+    background-position: center/* 0% 30% */ ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-jay-charles {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Jay%20Charles%20%20logo.jpg);
+    background-position: center/* 0% 30% */ ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-jennifer-constable {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-kelly-browett {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-liz-curtis {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-jenny-abbott {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-sam-wallace-wynne {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Sam%20Wallace%20Wynne%20photo.jpg);
+    background-position: center/* 20% 30% */;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+@media only screen and (max-width: 1000px) {
+    #Childminder-sam-wallace-wynne {
+    height: 40vh;
+    width: 99.99999vw;
+    background-image: url(resources/Sam%20Wallace%20Wynne%20photo.jpg);
+    background-position: center/* 20% 30% */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+    }
+}
+
+#Childminder-sara-shepard {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Sara%20Sheppard%20%20logo.jpg);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbeff;
+}
+
+#Childminder-sharon-dumpleton {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-stacey-clark {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-tracey-simpson {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-valeria-vaz {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/Valeria%20Vaz%20logo.jpg);
+    background-position: center/* 0% 30% */ ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+#Childminder-yvonne-sellars {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/pexels-photo-681118-min.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
+
+
+
+
+/* ----------------- */
+
+
+
+
+
+
+
+#Childminder-welcome {
+    height: auto;
+    width: 70vw;
+    margin-top: -15vh;
+    margin-left: 10vw;
+    padding: 2vw 3vw ;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+}
+
+@media only screen and (max-width: 700px) {
+    #Childminder-welcome {
+        width: 88vw;
+    margin-top: -15vh;
+    margin-left: 2vw;
+    padding: 2vw 3vw ;
+    }
+}
+
+#Childminder-welcome-sara {
+    height: auto;
+    width: 70vw;
+    margin-top: vh;
+    margin-left: 10vw;
+    padding: 2vw 3vw ;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+}
+
+@media only screen and (max-width: 700px) {
+    #Childminder-welcome-sara {
+        width: 86.5vw;
+    margin-top: -5vh;
+    margin-left: 2vw;
+    padding: 2vw 3vw ;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #Childminder-welcome {
+        width: 85vw;
+    margin-top: -15vh;
+    margin-left: 2vw;
+    padding: 2vw 3vw ;
+    }
+}
+
+#childminder-title {
+    height: auto;
+    width:;
+    text-align: let;
+    display: inline-blck;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    #childminder-title {
+        text-align: center;
+        font-size: 1.7em;
+    }
+}
+
+#childminder-ofsted-award {
+    height: auto;
+    width: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    display: inline-blok;
+    text-align: righ;
+}
+
+@media only screen and (max-width: 700px) {
+    #childminder-ofsted-award {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+#childminder-int {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#childminder-cta {
+    height: auto;
+    width: auto;
+    padding: 11px;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 700px) {
+    #childminder-cta {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+}
+
+#childminder-cta:hover {
+    box-shadow: 1px 1px 1px grey
+}
+
+#childminder-main {
+    height: auto;
+    width: 82vw;
+    margin-left: 8vw;
+    margin-top: 60px;
+}
+
+#childminder-main h2 {
+    margin-bottom: 10px;
+}
+
+#childminder-int {
+    line-height: 1.1em;
+}
+
+#childminder-qualifications {
+    height: auto;
+    width: 76vw;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+    margin-top: 50px;
+    margin-left: 8vw;
+    padding: 2vw 3vw 2vw 3vw;
+    text-align: center;
+}
+
+#childminder-qualifications h2 {
+    margin-bottom: -10px;
+}
+
+#childminder-qualifications p {
+    margin-bottom: 10px;
+}
+
+#childminder-experience {
+    height: auto;
+    width: 82vw;
+    
+    margin-top: 50px;
+    margin-left: 8vw;
+}
+
+#childminder-experience h2 {
+    margin-bottom: -5px;
+}
+
+#childminder-fees {
+    height: auto;
+    width: 82vw;
+    
+    margin-top: 50px;
+    margin-left: 8vw;
+}
+
+#childminder-fees h2 {
+    margin-bottom: -10px;
+}
+
+#childminder-fees h4 {
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+#childminder-contact {
+    height: auto;
+    width: 77vw;
+       
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+    
+    margin-top: 50px;
+    margin-left: 8vw;
+    margin-bottom: 80px;
+    
+    padding: 2vw 3vw;
+}
+
+#childminder-contact h2 {
+    margin-bottom: -10px;
+    margin-top: ;
+    
+}
+
+.childminder-details {
+    margin-bottom: -5px;
+}
+
+#childminder-bottom {
+    height: 50px;
+    width: 99.99999vw;
+    background-color: cadetblue;
+}
+
+#childminder-bottom p {
+    height: auto;
+    width: auto;
+    margin-top: ;
+    padding-top: 3px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 8vw;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+#back-to-mf {
+    height: auto;
+    width: 30vh;
+    margin-left: 8vw;
+    margin-top: -10px;
+    margin-bottom: 70px;
+    background-color: dodgerblue;
+    border-radius: 3px;
+}
+
+#back-to-mf:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+#back-to-mf p {
+    padding: 10px;
+    text-align: center;
+}
+
+#back-to-mf p a {
+    color: white;
+}
+
+/*
+///
+///
+/// information for childminders
+///
+///
+///
+///
+//////
+///
+///
+///
+/// information for childminders
+///
+///
+//////
+///
+///
+///
+/// information for childminders
+///
+///
+//////
+///
+///
+///
+*/
+
+#ifc-top {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/ifc-top.jpg);
+    background-position: 0% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mf-top {
+        background-position: center;
+        height: 40vh;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #ifc-top {
+        height: 40vh;
+        background-position: center;
+    }
+}
+
+#ifc-intro {
+    height: auto;
+    width: 77vw;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px grey;;
+    margin-top: -9vh;
+    margin-left: 8vw;
+    margin-bottom: 3px;
+    padding: 2vw 3vw;    
+}
+
+@media only screen and (max-width: 700px) {
+    #ifc-intro {
+        width: 88vw;
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #ifc-intro {
+        width: 86vw;
+        margin-left: 2vw;
+    }
+}
+
+#ifc-intro h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    #ifc-intro h1 {
+        font-size: 1.2em;
+    }
+}
+
+#ifc-intro p {
+    margin-top: 10px;
+}
+
+#ifc-container-2 {
+    height: auto;
+    width: 82vw;
+    
+    margin-left: 8vw;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    #ifc-container-2{
+        margin-top: 40px;
+        width: 89vw;
+        margin-left: 3vw;
+    }
+}
+
+
+#ifc-container-2 h2 {
+    margin-bottom: -10px;
+}
+
+#ifc-container-2 h4 {
+    width: 200px;
+    margin-bottom: -10px;
+    text-align: center;
+    
+    background-color: #fff5dd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#pacey-logo-ifc {
+    height: auto;
+    width: 130px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 0vw;
+}
+
+
+
+
+/*
+///
+///
+/// information for parents
+///
+///
+///
+///
+//////
+///
+///
+///
+/// information for parents
+///
+///
+//////
+///
+///
+///
+/// information for parents
+///
+///
+//////
+///
+///
+///
+
+*/
+
+#ifp-top {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/ifp-childminder.jpeg);
+    background-size: cover;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1200px) {
+    #ifp-top {
+        background-position: top;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #ifp-top {
+        height: 40vh;
+    }
+}
+
+#ifp-intro {
+    height: auto;
+    width: 77vw;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px grey;;
+    margin-top: -9vh;
+    margin-left: 8vw;
+    margin-bottom: 3px;
+    padding: 2vw 3vw;  
+}
+
+@media only screen and (max-width: 700px) {
+    #ifp-intro {
+        width: 85vw;
+        margin-left: 3vw;
+    }
+}
+
+#ifp-intro h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#ifp-intro p {
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+#ifp-container-2 {
+    height: auto;
+    width: 80vw;
+    
+    margin-left: 8vw;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    #ifp-container-2 {
+        width: 90vw;
+        margin-top: 40px;
+        margin-left: 3vw;
+    }
+}
+
+#ifp-container-2 h2 {
+    margin-bottom: -10px;
+}
+
+#ifp-container-2 p {
+    line-height: 1.3em
+}
+
+#ifp-container-2 h4 {
+    margin-bottom: -10px;
+}
+
+
+#ifp-bot {
+    height: auto;
+    width: auto;
+    
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding: 2vw 3vw;
+    
+    background-color: #fff5dd;
+}
+
+#back-to-mf-ifp {
+    height: auto;
+    width: 30vh;
+    
+    margin-left: ;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+    background-color: dodgerblue;
+    border-radius: 3px;
+}
+
+#back-to-mf-ifp:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+#back-to-mf-ifp p {
+    padding: 10px;
+    text-align: center;
+}
+
+#back-to-mf-ifp p a {
+    color: white;
+}
+
+
+/*
+
+///
+///
+/// contact
+///
+///
+///
+///
+////// contact
+///
+///
+///
+/// contact
+///
+///
+////// contact
+///
+///
+///
+/// contact
+///
+///
+////// contact
+///
+///
+///
+
+*/
+
+.contact-top {
+    height: 50vh;
+    width: 99.9999vw;
+    
+    background-image: url(resources/Lets-talk-Grantham-childmind.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contact-main {
+    height: auto;
+    width: 77vw;
+    margin-top: -10vh;
+    margin-left: 8vw;
+    
+    padding: 5vw 3vw;
+    
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+@media only screen and (max-width: 700px) {
+    #contact-main {
+        width: 90vw;
+        margin-left: 2vw;
+    }
+}
+
+#contact-main h1 {
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+#contact-main p {
+    margin-bottom: 0px;
+}
+
+#contact-phone {
+    height: auto;
+    margin-top: 2px;
+    padding: 9px 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#contact-phone:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+.contact-form {
+    height: auto;
+    width: 82vw;
+    margin-left: 8vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3d3d3d;
+}
+
+.form-group {
+    height: 40px;
+    width: 80vw;
+    margin-bottom: 5px;
+}
+
+.form-control1 {
+    height: 30px;
+    width: 300px;
+    border: 1px solid dodgerblue;
+}
+
+.form-control2 {
+    min-height: 50px;
+    width: 300px;
+    border: 1px solid dodgerblue;
+}
+
+.btn-primary {
+    height: 25px;
+    width: 150px;
+    margin-top: 30px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.contact-link-001 {
+    margin-top: 5px;
+    padding: 9px 10px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: white;
+    font-family: Josefin sans;
+    display: inline-block;
+}
+
+#contact-bot {
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8em;
+    float: right;
+}
+
+#contact-bottom {
+    height: 50px;
+    width: 99.99999vw;
+    background-color: cadetblue;
+    margin-top: ;
+}
+
+#contact-bottom p {
+    height: auto;
+    width: auto;
+    padding-top: 15px;
+    margin-top: 50px;
+    margin-left: 8vw;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*
+
+///
+///
+/// minderfinder
+///
+///
+///
+///
+////// minderfinder
+///
+///
+///
+/// minderfinder
+///
+///
+////// minderfinder
+///
+///
+///
+/// minderfinder
+///
+///
+////// minderfinder
+///
+///
+///
+
+*/
+
+
+.mf-top {
+    height: 50vh;
+    width: 99.99999vw;
+    
+    background-image: url(resources/minderfinder-top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mf-top {
+        background-position: center;
+        height: 40vh;
+    }
+}
+
+#mf-intro {
+    height: auto;
+    width: 77vw;
+    margin-top: -10vh;
+    margin-left: 8vw;
+    padding: 2vw 3vw;
+    color;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 700px) {
+    #mf-intro {
+        width: 87vw;
+        margin-left: 2vw;
+    }
+}
+
+#mf-intro h1 {
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+#mf-cta {
+    display: inline-block;
+    
+    height: auto;
+    width: auto;
+    
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 12px 15px;
+    
+    background-color: dodgerblue;
+    border-radius: 3px;
+    
+    color: white;
+}
+
+#mf-cta:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+
+#mf-map {
+    height: auto;
+    width: 82vw;   
+    margin-left: 8vw;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    #mf-map {
+        height: ;
+        width: 93vw;
+        margin-left: 2vw;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #mf-map {
+        height: ;
+        width: 90vw;
+        margin-left: 2vw;
+    }
+}
+
+#mf-map p {
+    color: grey;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#mf-map iframe {
+    height: 50vh;
+    width: 100%;
+}
+
+#mf-profiles {
+    height: auto;
+    width: 83.2vw;
+    margin-top: 70px;
+    margin-left: 8vw;
+}
+
+@media only screen and (max-width: 700px) {
+    #mf-profiles {
+        height: auto;
+        width: 93vw;
+        margin-left: 2vw;
+        margin-top: 40px;
+    }
+}
+
+#mf-profiles h2 {
+    margin-bottom: px;
+}
+
+.mf-profile-box {
+    height: 170px;
+    width: 38.1vw;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: 2px black solid;
+    background-color: #befff;
+    overflow: hidden;
+}
+
+.mf-fade {
+    width: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-height: 150px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position:relative;
+}
+
+.mf-fade:before {
+    content:'';
+    width: 100%;
+    height: 150px;    
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(transparent 100px, #fff);
+}
+
+@media only screen and (max-width: 800px) {
+    .mf-profile-box {
+        height: auto;
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mf-profile-box {
+        height: ;
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mf-profile-box {
+        height: auto;
+        width: 95%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mf-profile-box {
+        height: auto;
+        width: 94%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mf-profile-box {
+        height: auto;
+        width: 93%;
+        margin-left: 0px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mf-profile-box {
+        height: auto;
+        width: 93%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        padding: 10px;
+    }
+}
+
+
+#mf-profile-picture {
+    height: 18vh;
+    width: 40.75vw;
+    overflow: hidden;
+    
+    background-color: #fbefff;
+    background-image: url(resources/gcglogo-blue-nobg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 800px) {
+    #mf-profile-picture {
+        height: 18vh;
+        width: 80vw;
+    }
+}
+
+.mf-profile-box h3 {
+    margin-top: 5px;
+    margin-bottom: -9px;
+}
+
+.mf-profile-box p {
+    margin-top: 15px;
+    margin-bottom: -10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#mf-p-link {
+    margin-top: 5px;
+    text-align: center;
+    
+    height: auto;
+    padding: 10px 0vh;
+}
+
+#mf-p-link a {
+    color: dodgerblue;
+    text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+#mf-bottom {
+    height: auto;
+    width: 82vw;
+    margin-top: 80px;
+    margin-left: 8vw;
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 700px) {
+    #mf-bottom {
+        width: 93vw;
+        margin-left: 2vw;
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+}
+
+#mf-bottom a {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#mf-bottom a:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+#mf-bot {
+    color: grey;
+    font-size: 0.8em;
+}
+
+/*
+///
+///
+/// fundraising
+///
+///
+///
+///
+///
+///
+/// fundraising
+///
+///
+///
+///
+///
+///
+/// fundraising
+///
+///
+///
+///
+///
+///
+/// fundraising
+///
+///
+///
+///
+*/
+
+#fundraising-container {
+    height: 40vh;
+    width: 99.9999vw;
+    background-image: url(resources/pexels-photo-749353.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#fundraising-top {
+    height: auto;
+    width: 77vw;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    padding: 2vw 3vw;
+    color;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 3px;
+}
+
+#fundraising-top h1 {
+    margin-bottom: -10px;
+}
+
+#fundraising-top p {
+    line-height: 1.2em
+}
+
+#fund-2nd {
+    height: auto;
+    width: 82vw;
+    margin-top: 60px;
+    margin-left: 8vw;
+}
+
+#fund-2nd h2 {
+    margin-bottom: -10px;
+}
+
+
+#fundraising-bottom {
+    height: 50px;
+    width: 99.99999vw;
+    background-color: cadetblue;
+    margin-top: 40px; 
+}
+
+#fundraising-bottom p {
+    height: auto;
+    width: auto;
+    margin-top: ;
+    padding-top: 3px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 8vw;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
