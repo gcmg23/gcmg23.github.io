@@ -752,7 +752,7 @@ a:visited {
 #Childminder-valeria-vaz {
     height: 50vh;
     width: 99.99999vw;
-    background-image: url(resources/Valeria%20Vaz%20logo.jpg);
+    background-image: url(resources/sweetangelschildcarelogo.jpeg);
     background-position: center/* 0% 30% */ ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -790,6 +790,7 @@ a:visited {
     border-radius: 3px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 1px grey;
+    opacity: 95%;
 }
 
 @media only screen and (max-width: 700px) {
