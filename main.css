@@ -607,6 +607,16 @@ a:visited {
     background-color: #fbefff;
 }
 
+#Childminder-sonia-webb {
+    height: 50vh;
+    width: 99.99999vw;
+    background-image: url(resources/soniawebblogo.jpeg);
+    background-position: center/* 0% 30% */ ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fbefff;
+}
+
 #Childminder-carole-pearson {
     height: 50vh;
     width: 99.99999vw;
