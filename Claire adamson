@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Grantham childminding group</title>
+        
+        <meta name="About" content="Looking for a childminder in Grantham or the surrounding area? GCG has everything you need to find the best childminder for your children. Use our about page to read our story!">
+        
+        <meta name="Keywords" content="a little bit about us, childmind, childminding, find child minder, find childminder, Grantham, grantham, lincolnshire, Lincolnshire, parent, family, care, child, Grantham Childminding Group, after school care, love, kids, OFSTED, early learning, healthy, education, Professional Association for Childcare and Early Years, minder finder, childminder near Grantham, childminding in Grantham, information, about grantham childminding, childminding in Grantham">
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script type="text/javascript" src="script.js"></script>
+        
+         <link rel="stylesheet" type="text/css" href="secondary.css" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <!--<link rel="shortcut icon" href="" />-->
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/nmm4rcv.css">
+        
+        <link rel="stylesheet" href="https://use.typekit.net/okx1tjb.css">
+        <link rel="icon" href="resources/logo.gif" type="image/gif" sizes="16x16">
+        
+    </head>
+    
+    <body>
+
+    <a name="btt"></a>    
+        
+<div id="Childminder-claire-adamson">
+        
+    <div id="container0">
+            <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Information-for-Parents.html">Information for Parents</a>
+            <a href="Information-for-childminders.html">Information for Childminders</a>
+            <!--<a href="#">Events, training and news</a>-->
+            <a href="minderfinder.html">Minder Finder</a>
+            <a href="contact.html">Contact</a>
+            <a href="fundraising.html">Fundraising</a>
+            </div>
+        </div>
+        </div>
+        
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+        <div id="menu">
+            <img id="GCGlogo-top" src="resources/logo-2.png">
+            <p id="menu-p-"><font color="">Menu</font></p>
+        </div>
+    </span>
+</div>
+    <a name=""><div id="minder-img-intro"></div></a>      
+    <div id="Childminder-welcome">
+        
+            <h1 id="childminder-title">Claire Adamson</h1>
+            <h3 id="childminder-ofsted-award"><!-- OFSTED award if wanted --></h3>
+            <p id="childminder-int">My aim is to support your child`s learning and development by providing outstanding care, enriching learning opportunities.</p>
+            <a href="#contact"><p id="childminder-cta">Contact</p></a>
+            <a href="#fees"><p id="childminder-cta">Fees</p></a>
+            <a href="#Quals"><p id="childminder-cta">Qualifications</p></a>
+            <a href="#experience"><p id="childminder-cta">Experience</p></a>
+        
+        <div id="minder-img-intr"></div>
+    </div>
+
+    
+    <div id="childminder-main">
+        <h2>My Philosophy</h2>   
+        <p id="childminder-int">My aim is to support your child`s learning and development by providing outstanding care, enriching learning opportunities and engaging play experiences that support the holistic development of each child. I will provide a warm, caring and trusting enviroment with the Early Years Foundation Stage, where your child will feel safe and secure for them to explore and learn. As a parent, I know how difficult it can be to leave your child in someone else`s care. That`s why at Happy Tots, Im not just here to support the child but also the parents so you feel happy and secure leaving your child at my setting. Happy Tots Childminding is a place where little hearts feel safe, little minds are inspired and every child is given time and care they deserve. </p>
+        
+    </div>
+        
+    <div id="childminder-qualifications">
+        <h2><a name="Quals">Qualificaitons</a></h2>
+        <p>Member of Accredited Childminder network and able to provide qualifying children with their free Early years entitlement (E.Y.E) - 15 hours per week Government funded for 2 & 3/4 year olds. <br>
+Able to provide qualifying 9 month olds, 2 year olds and 3 & 4 year olds with their free Early years entitlement (E.Y.E).<br>
+OFSTED Registered <br>
+Member of Grantham Childminding Group <br>
+Member of the Professional Association for Childcare and Early Years (PACEY) <br>
+NCFE CACHE Level 3 in Childcare<br>
+Level 3 Paediatric First Aid <br>
+Level 2 Teaching Phonics <br>
+Level 3 Understanding Autism<br>
+Level 2 Food Hygiene<br>
+Level 2 Understanding Children and Young People's Mental Health<br>
+Makaton Trained<br>
+Trained to work with children with tracheostomy, ventilators and PEG (Percutaneous Endoscopic Gastrostomy) tube<br>
+Fire Safety trained<br>
+Full Driving Licence <br>
+DBS checked as well as everyone in my household over the age of 16<br>
+Safeguarding training and many more</p>
+
+    </div>
+        
+    <div id="childminder-experience">
+          <h2><a name="experience">Other Information</a></h2>
+        <p>I am an OFSTED registered childminder with over 11 years of experience working in a primary school as a teaching assistant, working mainly in EYFS and KS1 classes. I have also worked in KS2 and volunteered at a nursery. Working in a school has given me a deep understanding of the EYFS Statutory Framework, from tracking development milestones to planning engaging, play- based learning activities. My time as a TA has taught me that every play session is a learning opportunity. Whether we're exploring sensory bins or reading stories, I'm using my professional training to observe, assess and plan for your child's next steps - so they can be school ready!
+
+I work Monday to Friday 7.30am- 5.30pm and I have spaces for children aged 6 weeks to 11 years. I also accept Free Childcare for Working Parents Government funding. During the week we will go on fun filled adventures to explore the outdoors, for example trips to Belton House, farms, nature trails, toddler groups, local library and many more! <br><br>The premises in which your child will be cared for in is a semi-detached house, close to the town centre and amenities, the interior of my home, provides a playroom with a large variety of toys, games, books etc, a television and computer. There is a large kitchen and dinning room for meals to be eaten in, crafts and messy play. A toilet downstairs. <br><br>Access is kept to the downstairs whilst childminding, unless children require a sleep, then there is a bedroom upstairs for them. All the windows are securely locked and safe. There is a large, fully enclosed garden with a locked gate. There are lots of toys outside for the children to play with and for various ages and development. The environment is homely, and I provide your child with the same care and attention that you would provide yourself. </p>  
+    
+    
+    </div>
+        
+        <div id="childminder-fees">
+            <h2><a name="fees">Fees & Meals</a></h2>
+            <p>£5.00 per hour.</p>
+            <h4>School drop off/pick ups</h4>
+            <p>Surrounding schools and preschools I can do drop off and pick ups. Please speak to me for more information. </p>
+        </div>
+        
+        <div id="childminder-contact">
+            <h2><a name="contact">My contact details</a></h2>
+            <p class="childminder-details">Location: Manthrope est</p>
+            <p class="childminder-details">Mobile:07890387756</p>
+            <p class="childminder-details">E-mail: happytotschildminding@hotmail.com </p>
+            <p>
+            
+        </p>
+        </div>
+        
+        <div id="back-to-mf">
+            <p><a href="minderfinder.html">Find another childminder</a></p>
+        </div>
+        
+        <div id="childminder-bottom">
+            <a href="#btt"><p>Back to top</p></a>
+            <a href="mailto:gcmgchair@hotmail.com" target="_top"><p>Contact us</p></a>
+        </div>
+        
+    </body>
+    
+</html>
